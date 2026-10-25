@@ -192,5 +192,5 @@ metode_biseksi/
 - Muhammad Fathir
 - Muhammad Irfan
 - Dhawy Azzafran
-- Naila Putri Syahnuza
+- Najla Putri Syahnuza
 - Kelompok 2
