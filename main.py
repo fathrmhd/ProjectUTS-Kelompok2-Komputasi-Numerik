@@ -1,12 +1,7 @@
-"""
-main.py
-=======
-Titik masuk aplikasi "Metode Iterasi" (Iterasi Titik Tetap).
-
-Cara menjalankan:
-   pip install -r requirements.txt
-   python main.py
-""
+# Cara menjalankan:
+#    pip install -r requirements.txt
+#    python main.py
+# ""
 
 import sys
 
