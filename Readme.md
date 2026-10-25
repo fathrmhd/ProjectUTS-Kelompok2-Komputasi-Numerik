@@ -1,8 +1,8 @@
 # Metode Iterasi (Titik Tetap) — Kalkulator Akar Persamaan Non-Linier
 
-Aplikasi desktop (GUI) berbahasa Python untuk mencari **akar persamaan non-linier** menggunakan **Metode Iterasi (Titik Tetap / Fixed-Point Iteration)** sesuai Materi Praktikum Komputasi Numerik.
+Aplikasi berbahasa Python untuk mencari **akar persamaan non-linier** menggunakan **Metode Iterasi (Titik Tetap / Fixed-Point Iteration)**
 
-Cukup masukkan fungsi $f(x)$ dan $g(x)$ serta tebakan awal $x_0$, lalu aplikasi menampilkan **hasil akar**, **tabel iterasi lengkap**, dan **grafik cobweb (jalur tangga)** secara otomatis.
+Cukup masukkan fungsi $f(x)$ dan $g(x)$ serta tebakan awal $x_0$, lalu aplikasi menampilkan **hasil akar**, **tabel iterasi lengkap**, dan **grafik**.
 
 > **Project Metode Iterasi — Praktikum Komputasi Numerik**
 > Kelompok 2
@@ -26,7 +26,7 @@ Cukup masukkan fungsi $f(x)$ dan $g(x)$ serta tebakan awal $x_0$, lalu aplikasi 
 
 ## 1. Apa itu Metode Iterasi?
 
-Metode Iterasi (Titik Tetap) adalah metode dalam komputasi numerik yang digunakan untuk mencari nilai pendekatan dari suatu solusi persamaan non-linier $f(x) = 0$ dengan cara melakukan perhitungan berulang-ulang sampai mendapatkan hasil yang konvergen / mendekati nilai sebenarnya.
+Metode Iterasi adalah metode dalam komputasi numerik yang digunakan untuk mencari nilai pendekatan dari suatu solusi persamaan non-linier $f(x) = 0$ dengan cara melakukan perhitungan berulang-ulang sampai mendapatkan hasil yang konvergen / mendekati nilai sebenarnya.
 
 ### Prinsip Kerja:
 Persamaan $f(x) = 0$ diubah bentuk aljabar menjadi:
@@ -54,7 +54,7 @@ Lalu ditentukan nilai tebakan awal $x_0$, dan dihitung secara berulang:
 
 - **Form Input Terstruktur**:
   - `Fungsi F(X)`
-  - `Pilihan Cara g(x)`: Menu dropdown untuk memilih salah satu dari 3 cara penurunan $g(x)$ secara otomatis, atau mode Manual untuk mengetik bebas.
+  - `Pilihan Cara g(x)`: Menu dropdown untuk memilih salah satu dari 3 cara penurunan $g(x)$ secara otomatis, atau mode Manual.
     - **Cara 1**: Isolasi $x^2 \implies x = \sqrt{\frac{-bx - c}{a}}$
     - **Cara 2**: Isolasi $x \implies x = \frac{-ax^2 - c}{b}$
     - **Cara 3**: Faktorisasi $x \implies x = \frac{-c}{ax + b}$
