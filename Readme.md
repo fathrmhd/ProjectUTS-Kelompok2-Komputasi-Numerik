@@ -39,7 +39,7 @@ Lalu ditentukan nilai tebakan awal $x_0$, dan dihitung secara berulang:
 - $\dots$
 - $x_i = g(x_{i-1})$
 
-### Algoritma (Sesuai Materi):
+### Algoritma:
 1. **Definisikan** fungsi $F(x)$ dan $g(x)$.
 2. **Tentukan** toleransi error ($e$) dan iterasi maksimum ($N$).
 3. **Tentukan** pendekatan awal $x_0$.
@@ -121,7 +121,7 @@ python main.py
 
 ---
 
-## 6. Contoh Input dan Output (Sesuai Materi Slide)
+## 6. Contoh Input dan Output
 
 ### Latihan Slide: $F(x) = x^2 - 6x - 2$, $x_0 = 4$, $e = 0.001$
 
