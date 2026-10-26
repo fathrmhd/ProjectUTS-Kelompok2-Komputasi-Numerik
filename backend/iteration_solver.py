@@ -1,20 +1,3 @@
-"""
-backend/iteration_solver.py
-===========================
-Logika bisnis (backend) Metode Iterasi (Iterasi Titik Tetap / Fixed-Point Iteration).
-
-Modul ini TIDAK bergantung pada GUI, sehingga bisa diuji / dipakai
-ulang secara terpisah. Isinya:
-  1. Parser fungsi f(x) dan g(x) berbasis SymPy.
-  2. Validasi input pengguna (F(x), g(x), x0, e, N, desimal).
-  3. Algoritma Iterasi Titik Tetap (sesuai materi / slide presentasi):
-     - x_i = g(x_{i-1})
-     - e_tol = |g(x_i) - x_i|
-     - Kondisi berhenti: e_tol < e atau iterasi mencapai N.
-  4. Pemformatan angka (koma desimal + notasi ilmiah otomatis).
-  5. Penyusun teks ringkasan / kesimpulan.
-"""
-
 from __future__ import annotations
 
 import math
@@ -347,7 +330,7 @@ def solve(inputs: SolverInputs) -> IterationResult:
     """
     Jalankan Metode Iterasi (Iterasi Titik Tetap).
 
-    Algoritma (sesuai materi / slide):
+    Algoritma :
       1. x_i = g(x_{i-1})
       2. e_tol = |g(x_i) - x_i|
       3. Validasi = TRUE jika e_tol < e (atau f(x) = 0).
